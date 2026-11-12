@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- EDIT HERE: page title and description (shown in Google and link previews) -->
+  <title>Janvi Dixit | CITS Trainee – CSA</title>
+  <meta name="description" content="Portfolio of Janvi Dixit, CITS trainee in Computer Software Applications (CSA) at NSTI Kanpur.">
+  <meta property="og:title" content="Janvi Dixit | CITS Trainee – CSA">
+  <meta property="og:description" content="Education, skills, project and certificates of Janvi Dixit.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/profile-default.svg">
+  <link rel="icon" href="assets/images/profile-default.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#home">Skip to content</a>
+
+<div id="progress" aria-hidden="true"></div>
+<header class="nav">
+  <div class="wrap nav-in">
+    <a href="#home" class="logo" aria-label="Janvi Dixit, home">JD</a>
+    <nav id="menu" class="menu" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#training">Training</a>
+      <a href="#certifications">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme" class="icon-btn" aria-label="Switch light or dark theme"><span aria-hidden="true">◐</span></button>
+    <button id="burger" class="icon-btn burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<!-- HOME -->
+<section id="home" class="hero">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="hello">Hello, I am</p>
+      <!-- EDIT HERE: name, headline, intro -->
+      <h1>Janvi Dixit</h1>
+      <p class="role">IT – ENTHUSIAST</p>
+      <p class="lead">I am training at NSTI Kanpur and building my skills in web basics, databases and office applications. I am looking for an opportunity to learn and grow.</p>
+      <p class="typed" aria-live="off">I am learning <strong id="type">web basics</strong><span class="caret" aria-hidden="true"></span></p>
+      <div class="btns">
+        <!-- EDIT HERE: put your resume at assets/documents/resume.pdf -->
+        <a class="btn primary" href="assets/documents/resume.pdf" download="Janvi_Dixit_Resume.pdf">Download Resume</a>
+        <a class="btn" href="#contact">Contact Me</a>
+      </div>
+      <!-- EDIT HERE: numbers come from your resume. Change data-count to update. -->
+      <ul class="stats">
+        <li><b data-count="93" data-suffix="%">93%</b><span>ITI (COPA)</span></li>
+        <li><b data-count="80" data-suffix="%">80%</b><span>12th (UP Board)</span></li>
+        <li><b data-count="3">3</b><span>Certificates</span></li>
+        <li><b data-count="1">1</b><span>Project</span></li>
+      </ul>
+      <p class="loc">Kanpur, Uttar Pradesh, India</p>
+    </div>
+    <div class="photo">
+      <!-- EDIT HERE: add your photo as assets/images/profile.jpg. Until then the default picture is shown. -->
+      <img src="assets/images/profile.jpg" alt="Portrait of Janvi Dixit" width="400" height="500"
+           onerror="this.onerror=null;this.src='assets/images/profile-default.svg'">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="wrap narrow reveal">
+    <h2>About me</h2>
+    <!-- EDIT HERE -->
+    <p>I am a computer applications student pursuing CITS in Computer Software Applications at NSTI Kanpur. I completed my ITI in Computer Operator and Programming Assistant (COPA) at Government ITI, Pandu Nagar.</p>
+    <p>For my CITS project I built a College Management System that keeps student, faculty and fee records in one place. I have basic knowledge of HTML, CSS, MySQL and MS Office. I learn quickly, communicate clearly and enjoy working in a team.</p>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section alt">
+  <div class="wrap narrow reveal">
+    <h2>Education</h2>
+    <ol class="timeline">
+      <!-- EDIT HERE: add, remove or change items -->
+      <li>
+        <span class="when">2026–2027</span>
+        <h3>CITS – Computer Software Applications (CSA)</h3>
+        <p>NSTI Kanpur · Currently pursuing</p>
+      </li>
+      <li>
+        <span class="when">2025–2026</span>
+        <h3>ITI – Computer Operator and Programming Assistant (COPA)</h3>
+        <p>Government ITI, Pandu Nagar, Kanpur · 93%</p>
+      </li>
+      <li>
+        <span class="when">2021</span>
+        <h3>Intermediate (12th) – Physics, Chemistry and Mathematics</h3>
+        <p>GPMSVM Inter College · UP Board · 80%</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="wrap reveal">
+    <h2>Skills</h2>
+    <div class="chips" role="group" aria-label="Filter skills">
+      <button class="chip on" data-filter="all">All</button>
+      <button class="chip" data-filter="tech">Technical</button>
+      <button class="chip" data-filter="office">Office</button>
+      <button class="chip" data-filter="soft">Soft skills</button>
+    </div>
+    <div class="skill-grid">
+      <!-- EDIT HERE: a group with no <li> items is hidden automatically -->
+      <div class="group" data-cat="tech"><h3>Web and Database</h3><ul class="tags"><li>HTML</li><li>CSS</li><li>MySQL</li></ul></div>
+      <div class="group" data-cat="office"><h3>Office and Computer</h3><ul class="tags"><li>MS Word</li><li>MS Excel</li><li>MS PowerPoint</li><li>Internet and Email</li><li>File Management</li><li>Data Entry</li></ul></div>
+      <div class="group" data-cat="tech"><h3>Software and Tools</h3><ul class="tags"><li>Python</li><li>Tally</li><li>Power BI</li></ul></div>
+      <div class="group" data-cat="soft"><h3>Soft Skills</h3><ul class="tags"><li>Communication</li><li>Teamwork</li><li>Problem Solving</li><li>Adaptability</li><li>Leadership</li><li>Time Management</li><li>Quick Learning</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section alt">
+  <div class="wrap reveal">
+    <h2>Project</h2>
+    <!-- EDIT HERE: text below comes from your CITS project report -->
+    <article class="card pro" id="project">
+      <div class="pro-head">
+        <img src="assets/images/project1.png" alt="College Management System project" loading="lazy"
+             onerror="this.onerror=null;this.src='assets/images/project-default.svg'">
+        <div>
+          <h3>College Management System</h3>
+          <p>A web-based system to manage student, faculty and academic records in one central database. It covers attendance, fees, results, timetable and notices, with separate logins for Admin, Faculty and Students.</p>
+          <p class="contrib"><strong>My contribution:</strong> Prepared the project presentation and explained the project workflow and features.</p>
+          <a class="btn small" href="assets/documents/project-report.pdf" target="_blank" rel="noopener noreferrer" data-optional>Read project report</a>
+        </div>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Project details">
+        <button role="tab" class="tab on" aria-selected="true" data-tab="p-over">Problem and goal</button>
+        <button role="tab" class="tab" aria-selected="false" data-tab="p-roles">Roles</button>
+        <button role="tab" class="tab" aria-selected="false" data-tab="p-flow">Workflow</button>
+        <button role="tab" class="tab" aria-selected="false" data-tab="p-tech">Technology</button>
+        <button role="tab" class="tab" aria-selected="false" data-tab="p-out">Results</button>
+      </div>
+
+      <div class="panel on" id="p-over">
+        <h4>Problem</h4>
+        <p>Many colleges manage student records, attendance, fees, results and notices by hand or in separate spreadsheets. This causes duplicate data, errors, delays and extra work for staff and teachers.</p>
+        <h4>Objectives</h4>
+        <ul class="ticks">
+          <li>Keep student, faculty and course records in one database</li>
+          <li>Automate attendance and report generation</li>
+          <li>Manage fee details, payment status and receipts</li>
+          <li>Store and show exam marks and results</li>
+          <li>Role-based login for Admin, Faculty and Students</li>
+          <li>Reduce paperwork and manual errors</li>
+        </ul>
+      </div>
+
+      <div class="panel" id="p-roles" hidden>
+        <p>Choose a role to see what it can do.</p>
+        <div class="chips" role="group" aria-label="Choose a role">
+          <button class="chip on" data-role="Admin manages students, faculty, courses and fee records.">Admin</button>
+          <button class="chip" data-role="Faculty mark daily attendance and enter exam marks.">Faculty</button>
+          <button class="chip" data-role="Students view their profile, attendance, results, timetable and notices.">Student</button>
+        </div>
+        <p id="role-out" class="callout">Admin manages students, faculty, courses and fee records.</p>
+      </div>
+
+      <div class="panel" id="p-flow" hidden>
+        <p>Select a step to see what happens.</p>
+        <div class="steps" id="steps">
+          <button class="step on" data-desc="Admin, Faculty or Student logs in with credentials."><i>1</i>User login</button>
+          <button class="step" data-desc="The system checks the role and opens the matching dashboard."><i>2</i>Role check</button>
+          <button class="step" data-desc="Admin adds students, faculty, courses and fee records."><i>3</i>Data entry</button>
+          <button class="step" data-desc="Faculty record daily attendance and exam marks."><i>4</i>Attendance and marks</button>
+          <button class="step" data-desc="All records are saved in the central database."><i>5</i>Storage</button>
+          <button class="step" data-desc="Attendance percentage, fee balance and results are calculated."><i>6</i>Processing</button>
+          <button class="step" data-desc="Reports, receipts and result sheets are generated."><i>7</i>Reports</button>
+          <button class="step" data-desc="Users see their relevant information and notices."><i>8</i>Dashboard</button>
+        </div>
+        <p id="step-out" class="callout">Admin, Faculty or Student logs in with credentials.</p>
+      </div>
+
+      <div class="panel" id="p-tech" hidden>
+        <ul class="tags">
+          <li title="Backend and application logic">Python (Flask / Django)</li>
+          <li title="User interface">HTML, CSS, Bootstrap</li>
+          <li title="Form validation and interactivity">JavaScript</li>
+          <li title="Stores the records">SQLite / MySQL</li>
+          <li title="Report and PDF generation">Pandas / ReportLab</li>
+          <li class="opt" title="Optional: student-query chatbot and attendance insights">AI / LLM API (optional)</li>
+        </ul>
+        <p class="note">Hover over a tag to see its use. The dashed tag is an optional extra.</p>
+      </div>
+
+      <div class="panel" id="p-out" hidden>
+        <ul class="ticks">
+          <li>Student and faculty records</li>
+          <li>Attendance reports with percentage</li>
+          <li>Fee status and payment receipts</li>
+          <li>Exam results and marksheets</li>
+          <li>Timetable, notices and role-based dashboards</li>
+        </ul>
+        <div class="mock" aria-label="Sample dashboard">
+          <div><b>250</b><span>Total students</span></div>
+          <div><b>18</b><span>Fees pending</span></div>
+          <div><b>12</b><span>Below 75% attendance</span></div>
+          <div class="bar"><span>Average attendance 87%</span><em style="--w:87%"></em></div>
+        </div>
+        <p class="note">Sample dashboard with illustrative values, not real test results.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- TRAINING -->
+<section id="training" class="section">
+  <div class="wrap narrow reveal">
+    <h2>Training</h2>
+    <ul class="plain">
+      <!-- EDIT HERE: add internships or other practical training when you have them -->
+      <li><strong>CITS practical training, NSTI Kanpur (2026–2027)</strong><br>Hands-on training in Computer Software Applications (CSA).</li>
+      <li><strong>CITS project: College Management System</strong><br>Project report and presentation completed as part of CSA training.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section alt">
+  <div class="wrap reveal">
+    <h2>Certifications and achievements</h2>
+    <ul class="cards cert-list">
+      <!-- EDIT HERE: add or remove certificates -->
+      <li class="card"><h3>AI Literacy</h3><p>Edunet Foundation (SkillBuild) · 2026</p></li>
+      <li class="card"><h3>CCC – Course on Computer Concepts</h3><p>2026</p></li>
+      <li class="card"><h3>Typing Certificate</h3><p>Computer typing</p></li>
+      <li class="card"><h3>First position, Science Exhibition</h3><p>School competition</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="wrap narrow reveal">
+    <h2>Contact</h2>
+    <p>You can reach me using any of these links.</p>
+    <ul class="contact">
+      <!-- EDIT HERE: change the href AND the text. Empty links are hidden. -->
+      <li><span>Email</span><a href="mailto:janvidixit51@gmail.com" data-optional>janvidixit51@gmail.com</a></li>
+      <li><span>Phone</span><a href="tel:+916388172554" data-optional>+91 63881 72554</a></li>
+      <li><span>LinkedIn</span><a href="https://lnkd.in/p/g6ZWApxM" target="_blank" rel="noopener noreferrer" data-optional>View LinkedIn profile</a></li>
+      <li><span>GitHub</span><a href="https://github.com/janvidixit2005-hashle" target="_blank" rel="noopener noreferrer" data-optional>View GitHub profile</a></li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="wrap">© <span id="year">2026</span> Janvi Dixit · Kanpur, Uttar Pradesh</div></footer>
+<button id="top" class="top" aria-label="Back to top" hidden>↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>
